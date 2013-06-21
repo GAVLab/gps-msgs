@@ -12,9 +12,9 @@ int64 gps_time
 GpsRange L1
 GpsRange L2
 
-float64 latitude
-float64 longitude
-float64 altitude
-float64 latitude_covariance
-float64 longitude_covariance
-float64 altitude_covariance
+float64 lat
+float64 lon
+float64 alt
+float64 lat_cov
+float64 lon_cov
+float64 alt_cov
