@@ -6,6 +6,10 @@ Header header
 string  gps_id
 float64 gps_time
 
+# how far to iterate in.
+int8 obs
+int8[32] prn
+
 int8[32]    health
 
 # Positioning
