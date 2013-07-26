@@ -1,3 +1,8 @@
+## Ephemeris Data for each satellite
+
+## There are 33 ephemeris channels so that the element number will correspond to
+##  the PRN number
+
 Header header
     uint32 seq
     time stamp

@@ -5,7 +5,10 @@ Header header
 
 string gps_id_from
 string gps_id_to
-int64 gps_time   # GPS Time of output (ms into week)
+
+# GPS Time of output (ms into week)
+int64 gps_time
+
 int8 status # Output status
             #  2 : High precision solution available
             #  1 : Low precision solution only (high precision is zero)
@@ -16,7 +19,24 @@ int8 status # Output status
             # -4 : No L2 range measurements on receiver 1
             # -5 : No L1 range measurements on receiver 2
             # -6 : No L2 range measurements on receiver 2
+
 float64 ratio
 
+# number of input observations
+int32 obs
+
+# Number of fixed ambiguiity observations
+int32 amb_obs
+
+
+# Standard Positioning 
+RpvData sp
+
+# Low Precision
 RpvData lp
+
+# High Precision
 RpvData hp
+
+int32 base_prn_float
+int32 base_prn_fixed

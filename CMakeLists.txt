@@ -30,8 +30,9 @@ find_package(catkin REQUIRED
 add_message_files(
     FILES
         Ephemeris.msg
-        DualBandRange.msg
         GpsRange.msg
+        L1Range.msg
+        L1L2Range.msg
         DeltaPosition.msg
         Carrier.msg
         RpvData.msg
