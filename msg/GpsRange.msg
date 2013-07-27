@@ -6,9 +6,9 @@
 uint8 obs
 
 ## sv number for each satellite
-uint8[32] prn
+uint8[33] prn
 
-float64[32] psr
-float32[32] psr_std
+float64[33] psr
+float32[33] psr_std
 
 Carrier carrier
