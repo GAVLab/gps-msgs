@@ -10,7 +10,7 @@ string gps_id
 int64 gps_time
 
 # number of observations to follow ( for debugging )
-int32 num_obs
+# int32 num_obs
 
 GpsRange L1
 GpsRange L2
