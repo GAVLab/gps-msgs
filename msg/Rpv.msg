@@ -22,8 +22,8 @@ int8 status # Output status
 
 float64 ratio
 
-# number of input observations
-int32 obs
+# number of input observations common across all 
+int32 input_obs
 
 # Number of fixed ambiguiity observations
 int32 amb_obs
