@@ -5,6 +5,7 @@ Header header
     time stamp
     string frame_id
 
+# Assuming that the gps
 string gps_id_from
 string gps_id_to
 
